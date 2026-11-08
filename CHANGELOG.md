@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2026-11-08
 
-Very first release : it picks 13 sniffs from WPCS 3.4.1 (voir `UPSTREAM.md`), dispatched inside `Retraceur-Coeur` & `Retraceur-Extra` standards.
+Very first release : it picks 13 sniffs from WPCS 3.4.1, dispatched inside `Retraceur-Coeur` & `Retraceur-Extra` standards.
