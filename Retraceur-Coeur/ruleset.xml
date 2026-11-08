@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Retraceur-Coeur" xsi:noNamespaceSchemaLocation="https://schema.phpcodesniffer.com/phpcs.xsd">
+
+	<description>Retraceur sniffs matching WP-core ones.</description>
+
+	<!-- Charge PHPCSUtils (installé sans Composer) depuis les chemins déclarés dans installed_paths. -->
+	<autoload>../Retraceur/autoload.php</autoload>
+
+	<!-- Conventions de nommage. -->
+	<rule ref="Retraceur.NamingConventions.ValidFunctionName"/>
+	<rule ref="Retraceur.NamingConventions.ValidHookName"/>
+	<rule ref="Retraceur.NamingConventions.ValidVariableName"/>
+	<rule ref="Retraceur.Files.FileName"/>
+
+	<!-- Base de données. -->
+	<rule ref="Retraceur.DB.PreparedSQL"/>
+	<rule ref="Retraceur.DB.PreparedSQLPlaceholders"/>
+
+	<!-- Internationalisation. -->
+	<rule ref="Retraceur.WP.I18n"/>
+
+	<!-- Pratiques à éviter. -->
+	<rule ref="Retraceur.PHP.NoSilencedErrors"/>
+	<rule ref="Retraceur.PHP.DontExtract"/>
+	<rule ref="Retraceur.DateTime.RestrictedFunctions"/>
+	<rule ref="Retraceur.DateTime.CurrentTimeTimestamp"/>
+
+</ruleset>

@@ -1,0 +1,17 @@
+{
+  "phpcs": {
+    "version": "3.13.6",
+    "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer/releases/download/3.13.6/phpcs.phar",
+    "sha256": "aed4148cee26285a73e694a98d4675b84f81ef86b2581f811d3c402c0d3d7d23"
+  },
+  "PHPCSUtils": {
+    "version": "1.2.3",
+    "url": "https://github.com/PHPCSStandards/PHPCSUtils/archive/refs/tags/1.2.3.tar.gz",
+    "sha256": "1bd2198fefb8e9081ce35332127aca50f01cd4106d6f7f6bd28c0d507041d6c9"
+  },
+  "PHPCSExtra": {
+    "version": "1.5.1",
+    "url": "https://github.com/PHPCSStandards/PHPCSExtra/archive/refs/tags/1.5.1.tar.gz",
+    "sha256": "ee20b0d5f1f295dba7f37b259283c6c7544b57803600c9b825d10806ad614c1c"
+  }
+}

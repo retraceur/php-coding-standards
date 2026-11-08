@@ -1,0 +1,7 @@
+# Archives GitHub (tarballs de tags) : only package Retraceur PHP Code Standards.
+/bin                  export-ignore
+/Retraceur/Tests      export-ignore
+/.gitattributes       export-ignore
+/.gitignore           export-ignore
+/package.json         export-ignore
+/phpcs-deps.json      export-ignore

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Retraceur-Extra" xsi:noNamespaceSchemaLocation="https://schema.phpcodesniffer.com/phpcs.xsd">
+
+	<description>Retraceur-Coeur & Retraceur sniffs matching WP-Extra ones.</description>
+
+	<rule ref="Retraceur-Coeur"/>
+
+	<rule ref="Retraceur.PHP.DevelopmentFunctions"/>
+
+	<!-- Rend plus strict le rappel sur les commentaires de traducteurs inclus dans Core. -->
+	<rule ref="Retraceur.WP.I18n.MissingTranslatorsComment">
+		<type>error</type>
+	</rule>
+	<rule ref="Retraceur.WP.I18n.TranslatorsCommentWrongStyle">
+		<type>error</type>
+	</rule>
+
+	<!-- Tout ce qui est dans l'espace de noms global doit être préfixé (propriété "prefixes" à définir par le projet). -->
+	<rule ref="Retraceur.NamingConventions.PrefixAllGlobals"/>
+
+	<!-- Core respecte la liste des fonctions PHP autorisées ; Extra est plus strict. -->
+	<rule ref="Retraceur.PHP.NoSilencedErrors">
+		<properties>
+			<property name="usePHPFunctionsList" value="false"/>
+		</properties>
+	</rule>
+
+</ruleset>

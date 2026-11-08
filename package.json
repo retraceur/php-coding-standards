@@ -1,0 +1,13 @@
+{
+  "name": "@retraceur/php-coding-standards",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PHP Coding Standards for the Retraceur coeur project.",
+  "license": "MIT",
+  "repository": "github:retraceur/php-coding-standards",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "node bin/setup.mjs",
+    "test": "node bin/setup.mjs && php bin/test.php"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Retraceur" namespace="PHPCodingStandards\Retraceur" xsi:noNamespaceSchemaLocation="https://schema.phpcodesniffer.com/phpcs.xsd">
+
+	<description>Sniffs de Retraceur. Ne référencez pas ce standard directement : il activerait tous les sniffs, y compris ceux d'Extra. Utilisez Retraceur-Coeur, Retraceur-Extra ou des codes de sniffs précis.</description>
+
+	<!-- Charge PHPCSUtils (installé sans Composer) depuis les chemins déclarés dans installed_paths. -->
+	<autoload>./autoload.php</autoload>
+
+</ruleset>
